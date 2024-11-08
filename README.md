@@ -8,27 +8,27 @@
 * Quick Start - xCode and iOS deployment 
 
 
-## App Concept
+# App Concept
 Gain as many points as possible for Filipe (or whatever you call the lil car), the Cat! 
 Run down of frontend UI + game explanation.
 
 *Note: "love" points can also be described as ❤️ point*
 
-**Points counter -** <br>
+## Points counter
 Similarly to cookie clicker, you are able to gain or lose ❤️: # <br>
 In the app, it'll be displayed in terms of a percentage on the top of your device. <br>
 <img width="176" alt="Screenshot 2024-11-08 at 9 32 24 AM" src="https://github.com/user-attachments/assets/93dcc814-8f8c-4ec2-a5be-af92579e6910"> <br>
 Each 10 "love" points is calcualted as 1%. 
 
 
-**Clicky cat-** <br> 
+## Clicky cat 
 By default, you can click on the cat to gain 1 ❤️ point. Background white. <br> 
 <img width="208" alt="Screenshot 2024-11-08 at 9 44 08 AM" src="https://github.com/user-attachments/assets/9b47c0a4-190c-4cc0-9c03-ddfba1ae6a73"> <br> 
 
 During doubleUp, you'll gain 2 ❤️ points per click until it disables - will set back to default. Background yellow. <br> 
 <img src="https://github.com/user-attachments/assets/137c56cc-4ade-4e45-b0c8-7b646380707d" width="210" height="210" alt="clicky"> <br>
 
-**Action** <br>
+## Action
 An array of a 3x2 (across and down) with hidden values, or loot. <br>
 <img width="208" alt="Screenshot 2024-11-08 at 11 02 35 AM" src="https://github.com/user-attachments/assets/b4d3c949-0fc6-4ea7-9c98-a0b6426b9ce2">
 
@@ -90,20 +90,41 @@ Dirty Litterbox: Loses player 5 ❤ points <br>
 ![litterBox](https://github.com/user-attachments/assets/0154468a-eeaa-4330-b407-2742f8f158c0)
 
 
+### Reroll
+When clicked, it will reroll - or set action back to "?" - all [action](https://github.com/s028214/CatClicker/edit/main/README.md#action) buttons <br>
+Unlimited uses. Bottom - Right underneath Action. 
+<br>![reroll](https://github.com/user-attachments/assets/354aa5e6-e579-4d58-987f-fd3c518cc942)<br>
+
+### Mute/Unmute Button & Background Music
+Music will play _on loop_ when app is launched. Pauses when app is unfocused - in the background. <br>
+
+[original music](https://www.youtube.com/watch?v=65nj2f7723A) <br>
+is it good enough to be called "elevator music"? <br>
+by @shyllis 
+
+Mute button is next to [reroll](https://github.com/s028214/CatClicker/edit/main/README.md#reroll) with reactive icon <br>
+When clicked, mutes or unmutes audio. 
+
+![mute unmute](https://github.com/user-attachments/assets/f4ca1114-e1e1-4203-bb55-289e9193552b)
+
+*note to potential users, if the music doesn't seem to work in an actual iPhone deployment (not counting Xcode iPhone simulators) <br>*
+*Check to make sure the silent switch isn't on. If it is, turn it off. That will fix the audio - silent switch seemingly mutes audio*
 
 
-*Note: The recordings used here are of a Xcode's iPhone 15 Pro Simulation instead of an actual iOS deployment*
-
-## Development 
-## System Requirements
-## Quick Start
 
 
 
+*Note: Demonstration are recordings of a Xcode Simulation (iPhone 15 Pro) instead of an actual iPhone deployment*
 
 
-cat clicker thingy
+# Development 
+// TODO - FOR DEVELOPERS (EXPLAINS AND SOURCE CODES - mainly for me to remember how it works lmao)
+# System Requirements
+// TODO 
+# Quick Start
+// TODO
 
-work in progress
 
-note to self, deployment on iOS mutes sound if silent switch is on. turn it off.
+
+
+cat clicker thingy · 2024
