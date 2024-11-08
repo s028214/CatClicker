@@ -112,6 +112,9 @@ When clicked, mutes or unmutes audio.
 *note to potential users, if the music doesn't seem to work in an actual iPhone deployment (not counting Xcode iPhone simulators) <br>*
 *Check to make sure the silent switch isn't on. If it is, turn it off. That will fix the audio - silent switch seemingly mutes audio*
 
+## Full Game Demo
+Xcode deployment Game Demo (NO SOUND) <br> 
+
 # Development 
 // TODO - FOR DEVELOPERS, EXPLAINS PROJ CODE (mainly for myself as the developer to understand/record how more complex Xcode code functions works)
 
