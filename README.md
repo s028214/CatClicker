@@ -3,18 +3,18 @@
 
 **Table of Contents**
 * [App Concept](https://github.com/s028214/CatClicker/blob/main/README.md#app-concept) - Concept, explanation and gameplay
-* Developement - Code documentation
-* System Requirement - Needed hardware/software
-* Quick Start - xCode and iOS deployment 
+* [Developement](https://github.com/s028214/CatClicker/edit/main/README.md#development) - Code documentation
+* [System Requirement](https://github.com/s028214/CatClicker/edit/main/README.md#system-requirements) - Needed hardware/software
+* [Quick Start](https://github.com/s028214/CatClicker/edit/main/README.md#quick-start) - xCode and iOS deployment 
 
 **App Icon <br>**
 <img src="https://github.com/user-attachments/assets/fde41669-1df2-48c2-aff2-987b40c4349f" width="70" height="70" alt="Icon">
 
 # App Concept
 Gain as many points as possible for Filipe (or whatever you call the lil car), the Cat! 
-Run down of frontend UI + game explanation.
+Run down of frontend UI + game explanation. For clarity, "love" points can also be described as ❤️ points. <br>
 
-*Note: "love" points can also be described as ❤️ point*
+*Note: The following visual demonstration are recordings of a Xcode Simulation (iPhone 15 Pro) instead of an actual iPhone deployment*
 
 ## Points counter
 Similarly to cookie clicker, you are able to gain or lose ❤️: # <br>
@@ -112,21 +112,34 @@ When clicked, mutes or unmutes audio.
 *note to potential users, if the music doesn't seem to work in an actual iPhone deployment (not counting Xcode iPhone simulators) <br>*
 *Check to make sure the silent switch isn't on. If it is, turn it off. That will fix the audio - silent switch seemingly mutes audio*
 
-
-
-
-
-*Note: Demonstration are recordings of a Xcode Simulation (iPhone 15 Pro) instead of an actual iPhone deployment*
-
-
 # Development 
-// TODO - FOR DEVELOPERS (EXPLAINS AND SOURCE CODES - mainly for me to remember how it works lmao)
+// TODO - FOR DEVELOPERS, EXPLAINS PROJ CODE (mainly for myself as the developer to understand/record how more complex Xcode code functions works)
+
 # System Requirements
-// TODO 
+* An Apple Computer with MacOS - *Reference: Macbook Air 2020 M1*
+* Must have Xcode 15.4+ installed
+
 # Quick Start
-// TODO
+There are two parts to the quick start. [A](https://github.com/s028214/CatClicker/edit/main/README.md#a---xcode-easy-option) and [B](https://github.com/s028214/CatClicker/edit/main/README.md#b---iphone-deployment). A is getting it into Xcode, B is getting it into your iPhone (optional). 
+Exercise caution. It may not work for you like it did for me. Always double check with other references before proceeding.
+
+## A - Xcode (EASY OPTION)
+1. Download Xcode. Instructions @ [Apple](https://developer.apple.com/documentation/safari-developer-tools/installing-xcode-and-simulators)
+2. Head over to [CatClicker](https://github.com/s028214/CatClicker) Main Repository - Make sure it is the "Main" branch.
+3. On the top right, click the drop down green button called "<> Code"
+4. Click "open with Xcode", a popup might appear, click "open" or similar icon. 
+*Visual Instructions for steps #2 #3 #4* <br>
+![Screen Recording 2024-11-08 at 2 48 56 PM](https://github.com/user-attachments/assets/79436cf4-ef4f-4ab1-8f02-5633b8a332c0)
+5. It should automatically open Xcode. Follow the steps on screen. It will then launch the project.
+
+## B - iPhone Deployment
+Make sure you have a capable iPhone with iOS 17.5+. For reference, iPhone deployment was tested on iPhone 15 with iOS 18.0.1.
+
+I used this [tutorial](https://www.youtube.com/watch?v=blnXWaOK7i0) on Youtube. Follow the instructions. <br>
+You can also use this [tutorial](https://www.youtube.com/watch?v=TlgumE2xe_E) as helping reference for the prior mentioned one. <br>
+As previously mentioned, do your research as well just to be **safe!** <br>
 
 
 
 
-cat clicker thingy · 2024
+*cat clicker thingy · 2024*
