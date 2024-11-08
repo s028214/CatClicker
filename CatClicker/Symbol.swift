@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Symbol {
+struct Symbol { // simple struct to store image name and love level
     var image: String
     var love: Int
     

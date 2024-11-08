@@ -15,3 +15,6 @@ struct CatClickerApp: App {
         }
     }
 }
+
+// Timer implementation v1 reference v1 of s028214 github repo
+// Timer implementation v2 reference timerExperiment

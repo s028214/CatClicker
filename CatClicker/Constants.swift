@@ -12,6 +12,8 @@ struct Constants{
     static let textFont: Font = Font(UIFont(name: "Thonburi-Bold", size: 50) ?? UIFont.systemFont(ofSize: 40))
     static let buttonPadding: CGFloat = 5
     */
+    
+    // TODO - REDUDANT ATM.
 }
 
 extension Color{
