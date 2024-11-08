@@ -7,6 +7,8 @@
 * System Requirement - Needed hardware/software
 * Quick Start - xCode and iOS deployment 
 
+**App Icon <br>**
+<img src="https://github.com/user-attachments/assets/fde41669-1df2-48c2-aff2-987b40c4349f" width="70" height="70" alt="Icon">
 
 # App Concept
 Gain as many points as possible for Filipe (or whatever you call the lil car), the Cat! 
