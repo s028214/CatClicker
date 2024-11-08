@@ -1,4 +1,4 @@
-# CatClicker - README WORK IN PROGRESS
+# CatClicker
 **CatClicker** is a simple game where you -the player- gain love points for your cat through either random loot, or by manually clicking on the cat. Not unlike [Cookie Clicker ](https://en.wikipedia.org/wiki/Cookie_Clicker) in certain aspects. 
 
 **Table of Contents**
