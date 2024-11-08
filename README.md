@@ -12,7 +12,7 @@
 Gain as many points as possible for Filipe (or whatever you call the lil car), the Cat! 
 Run down of frontend UI + game explanation.
 
-*Note: "love" points can also be described as ❤️ point
+*Note: "love" points can also be described as ❤️ point*
 
 **Points counter -** <br>
 Similarly to cookie clicker, you are able to gain or lose ❤️: # <br>
@@ -40,7 +40,7 @@ Once clicked on an individual action button, it will select a random loot, let's
 2. Execute item a assigned action - often inflicted upon ❤️: #
 3. Button a will be rendered redudant - unclickable - until *reroll* is clicked, which then resets. <br>
 
-#### Loot
+### Loot
 Each loot has their own value and ability. Which incur different results based on which loot is obtained. 
 
 **Good Loot** <br>
@@ -55,13 +55,44 @@ Catnip: gains player 5 ❤ points + enabled DoubleUp for 5 seconds. <br>
 
 In a scenerio where Catnip is rolled while another DoubleUp is active - Catnip has been rolled previously - the time will be compounded.
 
-This means, that if I roll a Catnip at T = 0, gaining me 5 seconds, and I roll another Catnip at T = 3, I will gain 5 seconds on top of the 5 previous seconds. Even if 3 seconds have been used, the total time that shall elapse if no other Catnip is rolled is 13 seconds. 10 seconds compounded + 3 seconds previously elapsed. 
+This can be represented in an example:
+
+<h4 align="left">
+<pre>
+T = Time
+S = Seconds
+<br>
+
+T = 0s - Roll a Catnip (a)  
+DoubleUp Enabled for 5s
+
+-Assume 3 seconds pass- 
+
+T = 3s - Roll another Catnip (b) 
+DoubleUp will see that Catnip (a) is still in effect, add Catnip (b) 5 seconds to Catnip (a) 5 seconds for another 10s.
+TLDR; DoubleUp enabled for another 10s. Regardless of Catnip (a)'s being used by 3 seconds already - Compounds. 
+
+-Assume no more catnip is rolled + 10 more seconds elapse- 
+
+T = 13s - DoubleUp expires, disables.  
+</h4>
+</pre>
 
 
-**Bad Loot** <br> 
+**Bad Loot** <br>
+Wet Cat: Loses player 20 ❤ points <br>
+![wetCat](https://github.com/user-attachments/assets/9358c5e7-4c6b-49c6-9f21-ae3d4a0f127f)
+
+Expired Food: Loses player 12 ❤ points <br>
+![expired](https://github.com/user-attachments/assets/922edeba-9f02-4d0a-9a18-4425b0703cd4)
+
+Dirty Litterbox: Loses player 5 ❤ points <br>
+![litterBox](https://github.com/user-attachments/assets/0154468a-eeaa-4330-b407-2742f8f158c0)
 
 
 
+
+*Note: The recordings used here are of a Xcode's iPhone 15 Pro Simulation instead of an actual iOS deployment*
 
 ## Development 
 ## System Requirements
