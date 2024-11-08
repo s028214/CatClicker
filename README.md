@@ -20,7 +20,7 @@ Run down of frontend UI + game explanation. For clarity, "love" points can also 
 Similarly to cookie clicker, you are able to gain or lose ❤️: # <br>
 In the app, it'll be displayed in terms of a percentage on the top of your device. <br>
 <img width="176" alt="Screenshot 2024-11-08 at 9 32 24 AM" src="https://github.com/user-attachments/assets/93dcc814-8f8c-4ec2-a5be-af92579e6910"> <br>
-Each 10 "love" points is calcualted as 1%. 
+Each 10 "love" points is calculated as 1%. 
 
 
 ## Clicky cat 
