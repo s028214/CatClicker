@@ -12,13 +12,15 @@
 
 # App Concept
 Gain as many points as possible for Filipe (or whatever you call the lil car), the Cat! 
-Run down of frontend UI + game explanation. For clarity, "love" points can also be described as ❤️ points. <br>
+Run down of frontend UI + game explanation. <br> For clarity, "love" points can also be described as ❤️ points. App UI screenshot below. <br>
+
+<img src="https://github.com/user-attachments/assets/91a07a26-a0d8-4b80-a873-8eae591fc2be" width="90" height="195" alt="Image description">
 
 *Note: The following visual demonstration are recordings of a Xcode Simulation (iPhone 15 Pro) instead of an actual iPhone deployment*
 
 ## Points counter
-Similarly to cookie clicker, you are able to gain or lose ❤️: # <br>
-In the app, it'll be displayed in terms of a percentage on the top of your device. <br>
+Similarly to cookie clicker, you are able to gain or lose ❤️: #<br>
+In the app, it'll be displayed in terms of a percentage on the top of your device. You'll begin with 0% <br>
 <img width="176" alt="Screenshot 2024-11-08 at 9 32 24 AM" src="https://github.com/user-attachments/assets/93dcc814-8f8c-4ec2-a5be-af92579e6910"> <br>
 Each 10 "love" points is calculated as 1%. 
 
