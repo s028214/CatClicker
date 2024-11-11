@@ -16,7 +16,7 @@ Run down of frontend UI + game explanation. <br> For clarity, "love" points can 
 
 <img src="https://github.com/user-attachments/assets/91a07a26-a0d8-4b80-a873-8eae591fc2be" width="90" height="195" alt="Image description">
 
-*Note: The following visual demonstration are recordings of a Xcode Simulation (iPhone 15 Pro) instead of an actual iPhone deployment*
+*Note: The following visual demonstration are recordings of a Xcode Simulation (iPhone 15 Pro )<br> instead of an actual iPhone deployment*
 
 ## Points counter
 Similarly to cookie clicker, you are able to gain or lose ❤️: #<br>
